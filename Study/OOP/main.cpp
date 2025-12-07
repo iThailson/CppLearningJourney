@@ -6,7 +6,6 @@ public:
 	std::string type = {};
 	void init(int t);
 private:
-
 };
 
 void Airplane::init(int t) {
