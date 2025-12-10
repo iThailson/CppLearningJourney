@@ -21,5 +21,9 @@ int main() {
 		<< "\nStatus: " << (v3->getStarted() ? "On" : "Off")
 		<< "\nMax Speed: " << v3->getMaxSpeed() << "km\n\n";
 
+	delete v1;
+	delete v2;
+	delete v3;
+
 	return 0;
 };
