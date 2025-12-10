@@ -6,9 +6,11 @@ class Vehicle {
 public:
 	int type = {}, speed = {};
 	Vehicle(int tp);
+	bool getStarted();
 	int getMaxSpeed();
 	std::string getName();
 private:
+	void setStarted(bool st);
 	void setMaxSpeed(int ms);
 	void setName(std::string nm);
 	std::string name;
@@ -18,9 +20,9 @@ private:
 
 Vehicle::Vehicle(int tp) {
 	type = tp;
-	if (type == 1) setName("Airplane"), setMaxSpeed(800);
-	if (type == 2) setName("Car"), setMaxSpeed(200);
-	if (type == 3) setName("Ship"), setMaxSpeed(120);
+	if (type == 1) setName("Airplane"), setStarted(1), setMaxSpeed(800);
+	if (type == 2) setName("Car"), setStarted(1), setMaxSpeed(200);
+	if (type == 3) setName("Ship"), setStarted(1), setMaxSpeed(120);
 };
 
 int Vehicle::getMaxSpeed() {
@@ -37,4 +39,12 @@ std::string Vehicle::getName() {
 
 void Vehicle::setName(std::string nm) {
 	name = nm;
+}
+
+bool Vehicle::getStarted() {
+	return started;
+}
+
+void Vehicle::setStarted(bool st) {
+	started = st;
 }

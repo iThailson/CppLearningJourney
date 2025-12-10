@@ -2,11 +2,24 @@
 #include "vehicle.h"
 
 int main() {
-	Vehicle* vehicle1 = new Vehicle(1);
-	Vehicle* vehicle2 = new Vehicle(2);
-	Vehicle* vehicle3 = new Vehicle(3);
-	std::cout << "Type: " << vehicle1->getName() << "\n" << vehicle1->getMaxSpeed() << "km\n\n";
-	std::cout << "Type: " << vehicle2->getName() << "\n" << vehicle2->getMaxSpeed() << "km\n\n";
-	std::cout << "Type: " << vehicle3->getName() << "\n" << vehicle3->getMaxSpeed() << "km\n\n";
+	Vehicle* v1 = new Vehicle(1);
+	Vehicle* v2 = new Vehicle(2);
+	Vehicle* v3 = new Vehicle(3);
+
+	std::cout
+		<< "Type: " << v1->getName()
+		<< "\nStatus: " << (v1->getStarted() ? "On" : "Off")
+		<< "\nMax Speed: " << v1->getMaxSpeed() << "km\n\n";
+
+	std::cout
+		<< "Type: " << v2->getName()
+		<< "\nStatus: " << (v2->getStarted() ? "On" : "Off")
+		<< "\nMax Speed: " << v2->getMaxSpeed() << "km\n\n";
+
+	std::cout
+		<< "Type: " << v3->getName()
+		<< "\nStatus: " << (v3->getStarted() ? "On" : "Off")
+		<< "\nMax Speed: " << v3->getMaxSpeed() << "km\n\n";
+
 	return 0;
 };
