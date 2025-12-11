@@ -11,13 +11,13 @@ int main() {
 	char input = '1';
 	int i = 0;
 
-	file.open("Mestick.txt", std::ios::out);
+	file.open("Mestick.txt", std::ios::out | std::ios::app);
 
 	while (input == '1') {
 		i++;
 		std::cout << i << ". Enter a name\n";
 		std::cin >> txt;
-		file << i << ". " << txt << std::endl;
+		file << txt << std::endl;
 		system("cls");
 		std::cout << i << ". " << txt << std::endl;
 		std::cout << "Options:\n1.Enter a new text\n2.Exit\n";
