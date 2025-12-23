@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniformInitialization", "Un
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Auto-Rgister-Static", "Auto-Rgister-Static\Auto-Rgister-Static.vcxproj", "{44164450-5386-49FA-A281-4C2E1DE075D6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Extern", "Extern\Extern.vcxproj", "{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x64.Build.0 = Release|x64
 		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x86.ActiveCfg = Release|Win32
 		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x86.Build.0 = Release|Win32
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Debug|x64.ActiveCfg = Debug|x64
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Debug|x64.Build.0 = Debug|x64
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Debug|x86.Build.0 = Debug|Win32
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Release|x64.ActiveCfg = Release|x64
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Release|x64.Build.0 = Release|x64
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Release|x86.ActiveCfg = Release|Win32
+		{F4C4D211-8BB0-4ACC-B52F-7434B1DA2536}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
