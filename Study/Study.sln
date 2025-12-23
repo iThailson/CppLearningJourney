@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TryCatch", "TryCatch\TryCat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UniformInitialization", "UniformInitialization\UniformInitialization.vcxproj", "{F00E8866-FD9B-4039-82A7-486D1EBF4487}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Auto-Rgister-Static", "Auto-Rgister-Static\Auto-Rgister-Static.vcxproj", "{44164450-5386-49FA-A281-4C2E1DE075D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -601,6 +603,14 @@ Global
 		{F00E8866-FD9B-4039-82A7-486D1EBF4487}.Release|x64.Build.0 = Release|x64
 		{F00E8866-FD9B-4039-82A7-486D1EBF4487}.Release|x86.ActiveCfg = Release|Win32
 		{F00E8866-FD9B-4039-82A7-486D1EBF4487}.Release|x86.Build.0 = Release|Win32
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Debug|x64.ActiveCfg = Debug|x64
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Debug|x64.Build.0 = Debug|x64
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Debug|x86.Build.0 = Debug|Win32
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x64.ActiveCfg = Release|x64
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x64.Build.0 = Release|x64
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x86.ActiveCfg = Release|Win32
+		{44164450-5386-49FA-A281-4C2E1DE075D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
